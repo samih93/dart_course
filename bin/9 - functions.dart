@@ -9,6 +9,7 @@ int sum(int a, int b) {
 
 calculator(int a, int b, {String? operator}) {
   if (operator == null) return a + b;
+  // need to remove this line
   if (operator != null) {
     switch (operator) {
       case "+":

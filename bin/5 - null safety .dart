@@ -1,6 +1,8 @@
 String? variable = null;
 
-// NOTE ! ? ?? late 
+// NOTE ! ? ?? late
+//When to add ? or ! to indicate nullability or non-nullability.
+
 void main(List<String> args) {
   print(variable?.toLowerCase()); // null
   print(variable?.toLowerCase()); //null
