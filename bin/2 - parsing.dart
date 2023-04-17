@@ -59,7 +59,6 @@ void main(List<String> args) {
   print(username != null ? username : "no info");
   print(username ?? "no info");
 
-//ex:
   double note = 15;
   // >15 excelant
   // >=10 good
