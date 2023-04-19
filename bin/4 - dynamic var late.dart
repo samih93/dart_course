@@ -12,6 +12,5 @@ void main(List<String> args) {
   y = "samih";
   y = true;
 
-  //   description = 'Feijoada!';
-  // print(description);
+  print(description); // throw expeption cz not exsit in memory
 }
