@@ -8,6 +8,4 @@ class Student {
   String? name;
   late String lastname;
   bool selected = true;
-
-  
 }
