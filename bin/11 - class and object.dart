@@ -9,3 +9,6 @@ class Student {
   late String lastname;
   bool selected = true;
 }
+
+// from Json 
+// toJson
