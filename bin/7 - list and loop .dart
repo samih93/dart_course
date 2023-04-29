@@ -41,4 +41,11 @@ void main(List<String> args) {
 // ! map
   print(mynumber.map((e) => e % 2 == 0 ? e * e : "").join("-"));
 // and all needed functions
+
+// while
+  var index = 0;
+  while (index <= 10) {
+    print("samih $index");
+    index++;
+  }
 }

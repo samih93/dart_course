@@ -5,7 +5,7 @@ void main(List<String> args) {
   var s4 = sum4(null, null);
 
   //print(s3);
-  print(calculator(10, 5));
+  print(calculator(10, 5, operator: "^"));
   print(calculator2(10, 5, operator: "&"));
 }
 
@@ -13,6 +13,7 @@ void main(List<String> args) {
 printSomething() {
   print("hello world");
 }
+
 // or
 void printSomething1() {
   print("hello world");
@@ -53,13 +54,15 @@ calculator(int a, int b, {String? operator}) {
       return a - b;
     case "*":
       return a * b;
+    default:
+      return "invalid operator";
   }
 }
 
 calculator2(int a, int b, {String? operator}) {
   if (operator == null) return a + b;
 
-  var res = "";
+  var res;
   switch (operator) {
     case "/":
       res = "$a / $b = ${a / b}";
