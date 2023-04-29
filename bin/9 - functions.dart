@@ -9,6 +9,15 @@ void main(List<String> args) {
   print(calculator2(10, 5, operator: "&"));
 }
 
+// type void
+printSomething() {
+  print("hello world");
+}
+// or
+void printSomething1() {
+  print("hello world");
+}
+
 //
 int sum({required int a, required int b}) {
   // sum(int a,int b)
